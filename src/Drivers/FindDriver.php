@@ -2,15 +2,16 @@
 
 declare(strict_types=1);
 
-namespace PCore\Contracts;
+namespace PCore\Watcher\Drivers;
 
 use Closure;
+use PCore\Contracts\DriverInterface;
 use SplFileInfo;
 use Symfony\Component\Finder\Finder;
 
 /**
  * Class FindDriver
- * @package PCore\Watcher
+ * @package PCore\Watcher\Drivers
  * @github https://github.com/pcore-framework/watcher
  */
 class FindDriver implements DriverInterface
