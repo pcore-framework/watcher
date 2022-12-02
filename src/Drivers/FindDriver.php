@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace PCore\Watcher\Drivers;
 
 use Closure;
-use PCore\Contracts\DriverInterface;
+use PCore\Watcher\Contracts\DriverInterface;
 use SplFileInfo;
 use Symfony\Component\Finder\Finder;
 

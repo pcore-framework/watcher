@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PCore\Watcher;
 
-use PCore\Contracts\DriverInterface;
+use PCore\Watcher\Contracts\DriverInterface;
 
 /**
  * Class Watcher

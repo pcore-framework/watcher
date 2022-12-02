@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PCore\Contracts;
+namespace PCore\Watcher\Contracts;
 
 /**
  * Interface DriverInterface
